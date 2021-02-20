@@ -4,7 +4,7 @@ var outputArea = document.querySelector("#output");
 
 // var serverUrl = "https://api.funtranslations.com/translate/yoda.json";
 
-var serverUrl = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
+var serverUrl = "https://lessonfourapi.tanaypratap.repl.co/translate/minion.json";
 
 function getTranslationUrl(input){
     return serverUrl + "?" + "text=" + input;
