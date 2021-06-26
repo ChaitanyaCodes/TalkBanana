@@ -2,9 +2,11 @@ var btnTranslate = document.querySelector("#btn-translate");
 var textInput = document.querySelector("#text-input");
 var outputArea = document.querySelector("#output");
 
-// var serverUrl = "https://api.funtranslations.com/translate/yoda.json";
+//  var serverUrl = "https://api.funtranslations.com/translate/yoda.json";
 
-var serverUrl = "https://lessonfourapi.tanaypratap.repl.co/translate/minion.json";
+// var serverUrl = "https://lessonfourapi.tanaypratap.repl.co/translate/minion.json";
+var serverUrl = "https://api.funtranslations.com/translate/minion.json";
+
 
 function getTranslationUrl(input){
     return serverUrl + "?" + "text=" + input;
