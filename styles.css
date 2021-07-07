@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+textarea {
+    max-width: 95%;
+}
+
+nav {
+    background-color: #eebc50;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 8px 16px 0 rgba(31, 38, 135, 0.37);
+}
+
+nav h1 {
+    color: #24597c;
+    text-align: center;
+    padding: 1rem 3rem;
+}
+
+.container {
+    width: 100%;
+}
+
+.container img {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.container-center {
+    width: 80%;
+    max-width: 710px;
+    margin: auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0.6rem;
+}
+
+.content * {
+    align-self: center;
+    margin-top: 0.6rem;
+}
+
+.content textarea {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: bold;
+    background: rgba(252, 255, 72, 0.493);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(17.0px);
+    -webkit-backdrop-filter: blur(17.0px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 1rem;
+    resize: none;
+}
+
+.content textarea:focus {
+    border-color: #ffeb10;
+    box-shadow: 0 0 0 4px #edff88
+}
+
+.content button {
+    width: 40%;
+    max-width: 8rem;
+    padding: 1rem;
+    color: #494747f5;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #ffe23a;
+    border: none;
+    border-radius: 3rem;
+    margin-top: 0.6rem;
+}
+
+.content .output-area {
+    font-weight: bold;
+    background: rgba(255, 252, 74, 0.651);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(17.0px);
+    -webkit-backdrop-filter: blur(17.0px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1.5rem;
+    background-color: #eebc50;
+}
+
+.foot__info h3 {
+    text-transform: uppercase;
+    padding: 0.5rem;
+}
+
+.foot__info h3,
+.foot__info p {
+    text-align: center;
+    margin: 0 auto;
+    text-justify: auto;
+}
