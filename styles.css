@@ -63,6 +63,7 @@ nav h1 {
     display: block;
     font-size: 0.9rem;
     font-weight: bold;
+    color: #24597c;
     background: rgba(252, 255, 72, 0.493);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(17.0px);
