@@ -11,6 +11,7 @@ body {
     width: 100vw;
     height: 100vh;
     font-family: 'Roboto', sans-serif;
+    color: #24597c;
 }
 
 textarea {
@@ -81,7 +82,7 @@ nav h1 {
     width: 40%;
     max-width: 8rem;
     padding: 1rem;
-    color: #494747f5;
+    color: #24597c;
     text-transform: uppercase;
     font-weight: bold;
     background: #ffe23a;
